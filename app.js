@@ -15,7 +15,7 @@ async function kontrolEt() {
     });
     const div = document.getElementById("sonuc");
     if (!quake) {
-      div.innerText = `${new Date().toLocaleTimeString()} – İstanbul’da yeni deprem yok.`;
+      div.innerText = `${new Date().toLocaleTimeString()} – İstanbul’da ve çevresinde yeni deprem yok.`;
       return;
     }
     if (quake.id !== lastId) {
