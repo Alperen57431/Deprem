@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+  <meta charset="UTF-8">
+  <title>Deprem Alarmı</title>
+</head>
+<body>
+  <h1>Deprem Alarmı Uygulaması</h1>
+  <p>Bu site, Türkiye'deki depremleri takip eder ve bir deprem meydana geldiğinde alarm verir.</p>
+
+  <div id="sonuc"></div>
+
+  <script src="app.js"></script>
+</body>
+</html>
