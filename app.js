@@ -27,7 +27,7 @@ async function kontrolEt() {
         <p><strong>Şiddet:</strong> ${p.mag}</p>
         <p><strong>Zaman:</strong> ${zaman}</p>
       `;
-      if (p.mag >= 1.0) new Audio("alarm.mp3").play();
+      if (p.mag >= 4.0) new Audio("alarm.mp3").play();
     }
   } catch(e) {
     console.error(e);
